@@ -1,0 +1,35 @@
+<html>
+<head>
+<meta charset="UTF-8"/>
+
+<link href="ThreadStyle.css" rel="stylesheet" media="all">
+
+<title>ログイン画面</title>
+<!-- ログインページ -->
+
+</head>
+<body>
+
+<h1>Forum</h1>
+<h2>ログインページ</h2><br><br><br>
+
+<form action="AccountAuthenticationServletController" method="post">
+
+<p>ユーザ名を入力してください（最大16文字）<br>
+<input type="text" name="yuuzaamei" size=16 maxlength=16 placeholder="山田 太郎" required/><br><br>
+
+パスワードを入力してください（最大16文字）<br>
+<input type="text" name="pasuwaado" size=16 maxlength=16 required/><br><br>
+
+<input type="submit" value="ログイン"><br>
+
+</form>
+
+<a href= "CreateNewAccount.html" style="text-align:center">新規アカウント作成</a><br>
+
+<a href= "AllThreadsView2.jsp" style="text-align:center">スレッド一覧（閲覧のみ）</a><br>
+
+<a href= "BeforeTop.html" style="text-align:center">掲示板TOPへ戻る</a><br>
+
+</body>
+</html>

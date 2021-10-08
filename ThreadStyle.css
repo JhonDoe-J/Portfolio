@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+<!-- 外部参照CSSファイル -->
+
+ body{
+ background-color: #92cf9f;}
+
+ h1{
+ 	font-family:fantasy;
+ 	font-size: 90px;
+	Color: #6560EC;
+	background-color: #DDEEFF;
+	text-align: left;
+	height:100px;
+	margin: 0; }
+
+ h2{
+	Color:#004000;
+	font-size: 30px;
+ 	text-align: left;
+ 	margin: 0;
+ 	text-decoration:none;
+ 	}
+
+ h3{
+ 	Color:#000080;
+ 	font-size: 15px;
+ 	text-align: right;
+ 	margin: 0; }
+
+ h4{
+ 	Color:#ff0000;
+ 	font-size: 15px;
+ 	text-align: left;
+ 	margin: 0; }
+
+ li{
+ 	Color:blue;}
+
+ li:hover{ Color: #ff705b; }
+
+ button{
+ 	Color:blue; }
+ button:hover{ Color: #ff705b; }
+
+ p{
+	Color:#000080;
+	font-size: 20px;
+ 	text-align: left;
+ 	margin: 0; }
+
+ a{ Color:blue; }
+ a:hover{ Color: #ff705b; }
+
+ table{
+	Color : #0000a0;
+	background-color :#aaaaff;
+	table-layout: fixed; }
+
+ th{
+    width : "400";}
+
+
+ td{
+	width : "600";
+	height : "100";	}
+
+
+
+
+
